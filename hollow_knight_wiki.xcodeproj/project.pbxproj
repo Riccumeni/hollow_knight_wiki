@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C2462532A61705E0054FEC8 /* KnightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2462522A61705E0054FEC8 /* KnightViewController.swift */; };
+		7C2462552A6171C90054FEC8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2462542A6171C90054FEC8 /* RegisterViewController.swift */; };
+		7C34C3FC2A629EB60043BF0A /* PostRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34C3FB2A629EB60043BF0A /* PostRegisterViewController.swift */; };
+		7C8807B72A62C35100AE07AF /* GridCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8807B62A62C35100AE07AF /* GridCollectionViewController.swift */; };
+		7C8807B92A62C68200AE07AF /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8807B82A62C68200AE07AF /* PhotoCollectionViewCell.swift */; };
+		7CB2B8892A668D01009539B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CB2B8882A668D01009539B3 /* GoogleService-Info.plist */; };
+		7CB2B88C2A668D70009539B3 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7CB2B88B2A668D70009539B3 /* FirebaseAnalytics */; };
+		7CE56D332A612CB4000807B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE56D322A612CB4000807B4 /* AppDelegate.swift */; };
+		7CE56D352A612CB4000807B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE56D342A612CB4000807B4 /* SceneDelegate.swift */; };
+		7CE56D372A612CB4000807B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE56D362A612CB4000807B4 /* LoginViewController.swift */; };
+		7CE56D3A2A612CB4000807B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE56D382A612CB4000807B4 /* Main.storyboard */; };
+		7CE56D3C2A612CB5000807B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE56D3B2A612CB5000807B4 /* Assets.xcassets */; };
+		7CE56D3F2A612CB5000807B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE56D3D2A612CB5000807B4 /* LaunchScreen.storyboard */; };
+		7CE56D492A61306A000807B4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE56D482A61306A000807B4 /* Colors.swift */; };
+		7CE6005D2A65376200C9E070 /* EnemyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE6005C2A65376200C9E070 /* EnemyListViewController.swift */; };
+		7CE6005F2A6539A100C9E070 /* EnemyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE6005E2A6539A100C9E070 /* EnemyTableViewCell.swift */; };
+		7CFA4A282A61361C00A09819 /* Supernatural_Knight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA4A272A61361C00A09819 /* Supernatural_Knight.ttf */; };
+		7CFA4A2A2A61423C00A09819 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA4A292A61423C00A09819 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C2462522A61705E0054FEC8 /* KnightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightViewController.swift; sourceTree = "<group>"; };
+		7C2462542A6171C90054FEC8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		7C34C3FB2A629EB60043BF0A /* PostRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRegisterViewController.swift; sourceTree = "<group>"; };
+		7C8807B62A62C35100AE07AF /* GridCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewController.swift; sourceTree = "<group>"; };
+		7C8807B82A62C68200AE07AF /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		7CB2B8882A668D01009539B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7CE56D2F2A612CB4000807B4 /* hollow_knight_wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hollow_knight_wiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE56D322A612CB4000807B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CE56D342A612CB4000807B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CE56D362A612CB4000807B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7CE56D392A612CB4000807B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CE56D3B2A612CB5000807B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CE56D3E2A612CB5000807B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CE56D402A612CB5000807B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CE56D482A61306A000807B4 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		7CE6005C2A65376200C9E070 /* EnemyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyListViewController.swift; sourceTree = "<group>"; };
+		7CE6005E2A6539A100C9E070 /* EnemyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyTableViewCell.swift; sourceTree = "<group>"; };
+		7CFA4A272A61361C00A09819 /* Supernatural_Knight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Supernatural_Knight.ttf; path = ../../../../../../Downloads/Supernatural_Knight.ttf; sourceTree = "<group>"; };
+		7CFA4A292A61423C00A09819 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CE56D2C2A612CB4000807B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB2B88C2A668D70009539B3 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C8807BA2A62C68700AE07AF /* components */ = {
+			isa = PBXGroup;
+			children = (
+				7C8807B82A62C68200AE07AF /* PhotoCollectionViewCell.swift */,
+				7CE6005E2A6539A100C9E070 /* EnemyTableViewCell.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		7CE56D262A612CB4000807B4 = {
+			isa = PBXGroup;
+			children = (
+				7CE56D312A612CB4000807B4 /* hollow_knight_wiki */,
+				7CE56D302A612CB4000807B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CE56D302A612CB4000807B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CE56D2F2A612CB4000807B4 /* hollow_knight_wiki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CE56D312A612CB4000807B4 /* hollow_knight_wiki */ = {
+			isa = PBXGroup;
+			children = (
+				7CB2B8882A668D01009539B3 /* GoogleService-Info.plist */,
+				7C8807BA2A62C68700AE07AF /* components */,
+				7CE56D4A2A6133D9000807B4 /* fonts */,
+				7CE56D472A613057000807B4 /* common */,
+				7CE56D462A612D47000807B4 /* controller */,
+				7CE56D322A612CB4000807B4 /* AppDelegate.swift */,
+				7CE56D342A612CB4000807B4 /* SceneDelegate.swift */,
+				7CE56D382A612CB4000807B4 /* Main.storyboard */,
+				7CE56D3B2A612CB5000807B4 /* Assets.xcassets */,
+				7CE56D3D2A612CB5000807B4 /* LaunchScreen.storyboard */,
+				7CE56D402A612CB5000807B4 /* Info.plist */,
+			);
+			path = hollow_knight_wiki;
+			sourceTree = "<group>";
+		};
+		7CE56D462A612D47000807B4 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7CE56D362A612CB4000807B4 /* LoginViewController.swift */,
+				7C2462522A61705E0054FEC8 /* KnightViewController.swift */,
+				7C2462542A6171C90054FEC8 /* RegisterViewController.swift */,
+				7C34C3FB2A629EB60043BF0A /* PostRegisterViewController.swift */,
+				7C8807B62A62C35100AE07AF /* GridCollectionViewController.swift */,
+				7CE6005C2A65376200C9E070 /* EnemyListViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		7CE56D472A613057000807B4 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				7CE56D482A61306A000807B4 /* Colors.swift */,
+				7CFA4A292A61423C00A09819 /* Constants.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		7CE56D4A2A6133D9000807B4 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA4A272A61361C00A09819 /* Supernatural_Knight.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CE56D2E2A612CB4000807B4 /* hollow_knight_wiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CE56D432A612CB5000807B4 /* Build configuration list for PBXNativeTarget "hollow_knight_wiki" */;
+			buildPhases = (
+				7CE56D2B2A612CB4000807B4 /* Sources */,
+				7CE56D2C2A612CB4000807B4 /* Frameworks */,
+				7CE56D2D2A612CB4000807B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hollow_knight_wiki;
+			packageProductDependencies = (
+				7CB2B88B2A668D70009539B3 /* FirebaseAnalytics */,
+			);
+			productName = hollow_knight_wiki;
+			productReference = 7CE56D2F2A612CB4000807B4 /* hollow_knight_wiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CE56D272A612CB4000807B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7CE56D2E2A612CB4000807B4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 7CE56D2A2A612CB4000807B4 /* Build configuration list for PBXProject "hollow_knight_wiki" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CE56D262A612CB4000807B4;
+			packageReferences = (
+				7CB2B88A2A668D70009539B3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 7CE56D302A612CB4000807B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CE56D2E2A612CB4000807B4 /* hollow_knight_wiki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CE56D2D2A612CB4000807B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE56D3F2A612CB5000807B4 /* LaunchScreen.storyboard in Resources */,
+				7CFA4A282A61361C00A09819 /* Supernatural_Knight.ttf in Resources */,
+				7CB2B8892A668D01009539B3 /* GoogleService-Info.plist in Resources */,
+				7CE56D3C2A612CB5000807B4 /* Assets.xcassets in Resources */,
+				7CE56D3A2A612CB4000807B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CE56D2B2A612CB4000807B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE56D372A612CB4000807B4 /* LoginViewController.swift in Sources */,
+				7C8807B92A62C68200AE07AF /* PhotoCollectionViewCell.swift in Sources */,
+				7C8807B72A62C35100AE07AF /* GridCollectionViewController.swift in Sources */,
+				7CE56D492A61306A000807B4 /* Colors.swift in Sources */,
+				7C34C3FC2A629EB60043BF0A /* PostRegisterViewController.swift in Sources */,
+				7C2462552A6171C90054FEC8 /* RegisterViewController.swift in Sources */,
+				7CE56D332A612CB4000807B4 /* AppDelegate.swift in Sources */,
+				7C2462532A61705E0054FEC8 /* KnightViewController.swift in Sources */,
+				7CE6005F2A6539A100C9E070 /* EnemyTableViewCell.swift in Sources */,
+				7CE56D352A612CB4000807B4 /* SceneDelegate.swift in Sources */,
+				7CE6005D2A65376200C9E070 /* EnemyListViewController.swift in Sources */,
+				7CFA4A2A2A61423C00A09819 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CE56D382A612CB4000807B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE56D392A612CB4000807B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CE56D3D2A612CB5000807B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE56D3E2A612CB5000807B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CE56D412A612CB5000807B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CE56D422A612CB5000807B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CE56D442A612CB5000807B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hollow_knight_wiki/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "riccumeni.hollow-knight-wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CE56D452A612CB5000807B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hollow_knight_wiki/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "riccumeni.hollow-knight-wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CE56D2A2A612CB4000807B4 /* Build configuration list for PBXProject "hollow_knight_wiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE56D412A612CB5000807B4 /* Debug */,
+				7CE56D422A612CB5000807B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CE56D432A612CB5000807B4 /* Build configuration list for PBXNativeTarget "hollow_knight_wiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE56D442A612CB5000807B4 /* Debug */,
+				7CE56D452A612CB5000807B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7CB2B88A2A668D70009539B3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7CB2B88B2A668D70009539B3 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CB2B88A2A668D70009539B3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7CE56D272A612CB4000807B4 /* Project object */;
+}
