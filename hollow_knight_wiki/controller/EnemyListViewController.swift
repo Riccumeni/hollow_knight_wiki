@@ -6,13 +6,48 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseFirestore
+import FirebaseStorage
 
 class EnemyListViewController: UIViewController {
+    
+    let database = Firestore.firestore()
+    let storage = Storage.storage().reference()
+    
+    let searchController = UISearchController(searchResultsController: nil)
+    
+    var enemies: [Enemy] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        let docRef = database.collection("/enemy")
+        
+        docRef.getDocuments{ snapshot, error in
+            guard let data = snapshot?.documents, error == nil else {
+                return
+            }
+            
+            data.forEach{it in
+                self.enemies.append(Enemy(name: it.documentID, url: it.data()["url"] as! String))
+                /*
+                self.storage.child("\(it.documentID).jpeg").downloadURL(completion: {url, error in
+                    guard let url = url, error == nil else {
+                        return
+                    }
+                    
+                    let urlString = url.absoluteString
+                    self.enemies.append(Enemy(name: it.documentID, url: urlString))
+                    // TODO: spostare il ricaricamento della tabell fuori
+                    self.tableView.reloadData()
+                })
+                 */
+            }
+            self.tableView.reloadData()
+        }
         
         view.backgroundColor = Colors.background
         tableView.backgroundColor = Colors.background
@@ -20,6 +55,7 @@ class EnemyListViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         
+        setupSearchController()
         setupUI()
         
     }
@@ -65,31 +101,42 @@ class EnemyListViewController: UIViewController {
     }()
     
     private func setupUI(){
-        view.addSubview(searchTextField)
         view.addSubview(tableView)
         
-        searchTextField.translatesAutoresizingMaskIntoConstraints = false
         tableView.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
-            searchTextField.topAnchor.constraint(equalTo: view.topAnchor, constant: 70),
-            searchTextField.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            searchTextField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            searchTextField.heightAnchor.constraint(equalToConstant: 40),
             
-            tableView.topAnchor.constraint(equalTo: searchTextField.bottomAnchor, constant: 0),
+            tableView.topAnchor.constraint(equalTo: view.topAnchor, constant: 0),
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 20)
             
         ])
     }
+    
+    private func setupSearchController(){
+        self.searchController.searchResultsUpdater = self
+        self.searchController.obscuresBackgroundDuringPresentation = false
+        self.searchController.hidesNavigationBarDuringPresentation = false
+        self.searchController.searchBar.placeholder = "Cerca il nemico"
+        
+        self.navigationItem.searchController = searchController
+        self.definesPresentationContext = false
+        self.navigationItem.hidesSearchBarWhenScrolling = false
+    }
 
+}
+
+extension EnemyListViewController: UISearchResultsUpdating{
+    func updateSearchResults(for searchController: UISearchController) {
+        
+    }
 }
 
 extension EnemyListViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 15
+        return enemies.count
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -101,7 +148,12 @@ extension EnemyListViewController: UITableViewDelegate, UITableViewDataSource{
             fatalError("salve")
         }
         
-        cell.titleText.text = "ciao [\(indexPath.row)]"
+        let name = enemies[indexPath.row].name
+        
+        cell.titleText.text = enemies[indexPath.row].name
+        
+        let imageURL = URL(string: enemies[indexPath.row].url)
+        cell.img.kf.setImage(with: imageURL)
         
         return cell
     }

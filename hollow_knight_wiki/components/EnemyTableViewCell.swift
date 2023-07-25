@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class EnemyTableViewCell: UITableViewCell {
 
@@ -22,7 +23,7 @@ class EnemyTableViewCell: UITableViewCell {
         return label
     }()
     
-    private let img: UIImageView = {
+    public let img: UIImageView = {
         let img = UIImageView()
         
         img.image = UIImage(named: "Hornet")

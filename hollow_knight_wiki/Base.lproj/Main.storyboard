@@ -211,10 +211,29 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Q8j-DA-jdA"/>
+                    <connections>
+                        <segue destination="YLc-f3-YUk" kind="show" identifier="toEnemyDetail" id="PHx-Si-OKH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wni-6v-r0A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3137" y="1382"/>
+        </scene>
+        <!--Enemy Detail View Controller-->
+        <scene sceneID="CCS-Iy-vby">
+            <objects>
+                <viewController id="YLc-f3-YUk" customClass="EnemyDetailViewController" customModule="hollow_knight_wiki" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mjy-j5-cbb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="D99-b2-Xrh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="czH-BV-dtc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HhW-9L-EYp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3999" y="1384"/>
         </scene>
         <!--npc-->
         <scene sceneID="iZs-1E-I5Y">
