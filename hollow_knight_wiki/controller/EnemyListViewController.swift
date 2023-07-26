@@ -25,7 +25,7 @@ class EnemyListViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         let docRef = database.collection("/enemy")
-        
+        /*
         docRef.getDocuments{ snapshot, error in
             guard let data = snapshot?.documents, error == nil else {
                 return
@@ -48,6 +48,7 @@ class EnemyListViewController: UIViewController {
             }
             self.tableView.reloadData()
         }
+         */
         
         view.backgroundColor = Colors.background
         tableView.backgroundColor = Colors.background
@@ -147,8 +148,6 @@ extension EnemyListViewController: UITableViewDelegate, UITableViewDataSource{
         guard let cell = tableView.dequeueReusableCell(withIdentifier: EnemyTableViewCell.identifier, for: indexPath) as? EnemyTableViewCell else {
             fatalError("salve")
         }
-        
-        let name = enemies[indexPath.row].name
         
         cell.titleText.text = enemies[indexPath.row].name
         

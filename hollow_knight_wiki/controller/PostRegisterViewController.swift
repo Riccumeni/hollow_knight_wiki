@@ -269,7 +269,6 @@ class PostRegisterViewController: UIViewController, UITextViewDelegate {
             registerButton.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
             registerButton.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20),
             registerButton.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -20),
-            registerButton.heightAnchor.constraint(equalToConstant: 40),
         ])
     }
     

@@ -10,4 +10,5 @@ import Foundation
 struct Enemy{
     let name: String
     let url: String
+    let phases: [Phase]
 }

@@ -25,6 +25,8 @@
 		7C8807B92A62C68200AE07AF /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8807B82A62C68200AE07AF /* PhotoCollectionViewCell.swift */; };
 		7CB2B8892A668D01009539B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CB2B8882A668D01009539B3 /* GoogleService-Info.plist */; };
 		7CB2B88E2A668F09009539B3 /* EnemyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB2B88D2A668F09009539B3 /* EnemyDetailViewController.swift */; };
+		7CBA25902A713DE10019B568 /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBA258F2A713DE10019B568 /* Ability.swift */; };
+		7CD6249D2A6FF51F0033A9F6 /* Phase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6249C2A6FF51F0033A9F6 /* Phase.swift */; };
 		7CE56D332A612CB4000807B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE56D322A612CB4000807B4 /* AppDelegate.swift */; };
 		7CE56D352A612CB4000807B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE56D342A612CB4000807B4 /* SceneDelegate.swift */; };
 		7CE56D372A612CB4000807B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE56D362A612CB4000807B4 /* LoginViewController.swift */; };
@@ -48,6 +50,8 @@
 		7C8807B82A62C68200AE07AF /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		7CB2B8882A668D01009539B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7CB2B88D2A668F09009539B3 /* EnemyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyDetailViewController.swift; sourceTree = "<group>"; };
+		7CBA258F2A713DE10019B568 /* Ability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
+		7CD6249C2A6FF51F0033A9F6 /* Phase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phase.swift; sourceTree = "<group>"; };
 		7CE56D2F2A612CB4000807B4 /* hollow_knight_wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hollow_knight_wiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE56D322A612CB4000807B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CE56D342A612CB4000807B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				7C53B5092A6BFEFA004D2542 /* Enemy.swift */,
+				7CD6249C2A6FF51F0033A9F6 /* Phase.swift */,
+				7CBA258F2A713DE10019B568 /* Ability.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -262,9 +268,11 @@
 				7C8807B72A62C35100AE07AF /* GridCollectionViewController.swift in Sources */,
 				7CE56D492A61306A000807B4 /* Colors.swift in Sources */,
 				7C34C3FC2A629EB60043BF0A /* PostRegisterViewController.swift in Sources */,
+				7CD6249D2A6FF51F0033A9F6 /* Phase.swift in Sources */,
 				7C2462552A6171C90054FEC8 /* RegisterViewController.swift in Sources */,
 				7CE56D332A612CB4000807B4 /* AppDelegate.swift in Sources */,
 				7C2462532A61705E0054FEC8 /* KnightViewController.swift in Sources */,
+				7CBA25902A713DE10019B568 /* Ability.swift in Sources */,
 				7CE6005F2A6539A100C9E070 /* EnemyTableViewCell.swift in Sources */,
 				7CE56D352A612CB4000807B4 /* SceneDelegate.swift in Sources */,
 				7CE6005D2A65376200C9E070 /* EnemyListViewController.swift in Sources */,
